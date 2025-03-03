@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header {
+  background-color: hsl(310, 87%, 18%);
+  color: rgb(235, 237, 245);
+  padding: 10px 0;
+}
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  background-color: #110a05;
+  color: white;
+  border-radius: 5px;
+}
+button:hover {
+  background-color: #8b5e3b;
+}
+nav ul {
+  list-style: none;
+  padding: 10px;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: rgb(243, 240, 248);
+  text-decoration: rgb(10, 1, 10);
+}
+
+section {
+  padding: 30px;
+}
+
+#menu .menu-item {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  width: 200px;
+}
+
+form input,
+form textarea {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+form button {
+  background-color: #0f0c09;
+  color: #eeeef8;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}

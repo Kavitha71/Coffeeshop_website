@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coffee shop</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Coffee shop</coffee></h1>
+ 
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="home">
+      <h2>Enjoy the Best Coffee in Town</h2>
+      <p>
+        Freshly brewed coffee made just for you. The main section features a
+        warm introduction, inviting customers to enjoy fresh coffee in a cozy
+        ambiance. A background color or image changes dynamically to enhance the
+        user experience, and a call-to-action button encourages visitors to
+        explore the menu or learn more about the shop.
+      </p>
+      <button onclick="changeBackground()">Change Background</button>
+    </section>
+
+    <section id="menu">
+      <h2>Our Menu</h2>
+      <div class="menu-item">
+        <h3>Espresso</h3>
+        <img src="Espresso.jpg" alt="Espresso" height="170" width="180" />
+        <p>$3.00</p>
+      </div>
+      <div class="menu-item">
+        <h3>Cappuccino</h3>
+        <img src="Cappuccino.jpg" alt="Cappuccino" height="170" width="180" />
+        <p>$4.00</p>
+      </div>
+      <div class="menu-item">
+        <h3>Latte</h3>
+        <img src="Latte.jpg" alt="Latte" height="170" width="180" />
+        <p>$4.50</p>
+      </div>
+      <div class="menu-item">
+        <h3>Affogato</h3>
+        <img src="Affogato.jpg" alt="Affogato" height="170" width="180" />
+        <p>$6.50</p>
+      </div>
+      <div class="menu-item">
+        <h3>Mocha</h3>
+        <img src="Mocha.jpg" alt="Mocha" height="170" width="180" />
+        <p>$5.50</p>
+      </div>
+      <div class="menu-item">
+        <h3>Cortado</h3>
+        <img src="Cortado.jpg" alt="Cortado" height="170" width="180" />
+        <p>$3.50</p>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>About Us</h2>
+      <p>
+        We serve high-quality coffee sourced from the best farms.Whether you
+        want a morning boost or a relaxing break, our coffee shop is the perfect
+        place to sit back, unwind, and enjoy your favorite drink. Whether you're
+        here to relax, work, or catch up with friends, we serve the perfect cup
+        for every moment. ☕✨
+      </p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <form id="contact-form">
+        <input type="text" id="name" placeholder="Your Name" required />
+        <input type="email" id="email" placeholder="Your Email" required />
+        <textarea id="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
